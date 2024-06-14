@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    box-sizing: content-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-box{
+    background-color: white;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    
+}
+.input-box-email{
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+
+}
+.input-box-password{
+    display: flex;
+    flex-direction: column;
+
+}
+.login-header{
+    font-weight: 100;
+    align-content: center;
+    text-align: center;
+}
